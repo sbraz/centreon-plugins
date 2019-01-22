@@ -60,7 +60,7 @@ sub new {
             "cert-pwd:s"            => { name => 'cert_pwd' },
             "cert-pkcs12"           => { name => 'cert_pkcs12' },
             "header:s@"             => { name => 'header' },
-            "get-param:s@"          => { name => 'get_param' },
+            "get-param:s%"          => { name => 'get_params' },
             "post-param:s@"         => { name => 'post_param' },
             "cookies-file:s"        => { name => 'cookies_file' },
             "unknown-status:s"      => { name => 'unknown_status' },

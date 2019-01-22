@@ -54,7 +54,7 @@ sub new {
             "proxyurl:s"            => { name => 'proxyurl' },
             "proxypac:s"            => { name => 'proxypac' },
             "header:s@"             => { name => 'header' },
-            "get-param:s@"          => { name => 'get_param' },
+            "get-param:s%"          => { name => 'get_params' },
             "timeout:s"             => { name => 'timeout', default => 10 },
             "ssl-opt:s@"            => { name => 'ssl_opt' },
             "ssl:s"                 => { name => 'ssl', },
